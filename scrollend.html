@@ -33,11 +33,11 @@
   
   <script>  
     document.addEventListener("scrollend", (e) => {
-      console.log("document scrollend " + new Date().getTime() + " " + e.target);
+      console.log("document scrollend " + new Date().getTime());
     });
 
     document.addEventListener("scroll", (e) => {
-      console.log("document scroll " + e.target);
+      console.log("document scroll " + new Date().getTime());
     });
 
     last.addEventListener("click", () => {
